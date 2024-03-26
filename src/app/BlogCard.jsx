@@ -44,7 +44,14 @@ export default () => {
                           <a href={items.href}>
                               <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
                               <div className="flex items-center mt-2 pt-3 ml-4 mr-2">
-
+                              <Image
+          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+          src="/next.svg"
+          alt="Next.js Logo"
+          width={180}
+          height={37}
+          priority
+        />
 
                               </div>
                               <div className="pt-3 ml-4 mr-2 mb-3">
