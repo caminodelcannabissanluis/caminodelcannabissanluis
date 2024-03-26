@@ -26,7 +26,7 @@ export default () => {
       {
         title: "Rastapaz Grow",
         desc: "🏆 𝑆𝑎𝑛 𝐿𝑢𝑖𝑠 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 🇦🇷. 📍𝑹𝒆𝒑𝒖𝒃𝒍𝒊𝒄𝒂 𝒅𝒆𝒍 𝑳𝒊𝒃𝒂𝒏𝒐 𝟖𝟏 🗺",
-        img: ".https://drive.google.com/file/d/1sFMX5khGlo6A47pJnvxSr48cG-ShJWWe/view?usp=drive_link",
+        img: "https://drive.google.com/file/d/1sFMX5khGlo6A47pJnvxSr48cG-ShJWWe/view?usp=drive_link",
 
         href: "https://www.instagram.com/rastapaz_grow/"
     },
@@ -35,7 +35,7 @@ export default () => {
   
   return (
       <section className="mt-12 mx-auto px-1 max-w-screen-xl md:px-8">
-<h1 className="text-3xl text-white-900"> El Camino del Cannabis en San Luis</h1>
+<h1 className="text-3xl text-purple-900"> El Camino del Cannabis en San Luis</h1>
  
           <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-2">
               {
@@ -48,7 +48,7 @@ export default () => {
 
                               </div>
                               <div className="pt-3 ml-4 mr-2 mb-3">
-                                  <h3 className="text-2xl text-purple-800">
+                                  <h3 className="text-2xl text-purple-900">
                                       {items.title}
                                   </h3>
                                   <p className="text-purple-800 text-sm mt-1">{items.desc}</p>
