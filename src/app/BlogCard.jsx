@@ -12,7 +12,7 @@ export default () => {
       {
           title: "El Jardín de Jah",
           desc: "🌿Vivero orgánico-San Luis capital🌿 📱Whatsapp: 2664-360646 🍄Sustratos-Semillas- Bionsumos-Plantines-Suelo vivo🍄 ⏲️Lunes a viernes de 10am a 20hs ⏲️",
-          img: "https://drive.google.com/file/d/1udgzA1-dSeR1vaYacl4kfps6Zn0ZS2jz/view?usp=sharing",
+          img: "public/thumb_jardin.jpg",
 
           href: "https://www.instagram.com/el_jardin_de_jah.sl"
       },
