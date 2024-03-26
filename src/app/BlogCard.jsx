@@ -20,14 +20,14 @@ export default () => {
       {
           title: "Abuelo Huachuma Semillas",
           desc: "⭐ Banco de semillas cannábicas. 🌱 Fotoperiódicas, Autoflorecientes. ✨ Genéticas de autor",
-          img: "https://drive.google.com/file/d/1hNthCsUfeWZPnCVW9Ulz9EfjzORQXLxJ/view?usp=drive_link",
+          img: "/thumb_abuelo.jpg",
 
           href: "https://www.instagram.com/abuelohuachuma/"
       },
       {
         title: "Rastapaz Grow",
         desc: "🏆 𝑆𝑎𝑛 𝐿𝑢𝑖𝑠 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 🇦🇷. 📍𝑹𝒆𝒑𝒖𝒃𝒍𝒊𝒄𝒂 𝒅𝒆𝒍 𝑳𝒊𝒃𝒂𝒏𝒐 𝟖𝟏 🗺",
-        img: "https://drive.google.com/file/d/1sFMX5khGlo6A47pJnvxSr48cG-ShJWWe/view?usp=drive_link",
+        img: "/thumb_rasta.jpg",
 
         href: "https://www.instagram.com/rastapaz_grow/"
     },
@@ -43,22 +43,20 @@ export default () => {
                   posts.map((items, key) => (
                       <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
                           <a href={items.href}>
+
                               <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
+
                               <div className="flex items-center mt-2 pt-3 ml-4 mr-2">
-                              <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+
 
                               </div>
+
                               <div className="pt-3 ml-4 mr-2 mb-3">
+
                                   <h3 className="text-2xl text-purple-900">
                                       {items.title}
                                   </h3>
+
                                   <p className="text-purple-800 text-sm mt-1">{items.desc}</p>
                               </div>
                           </a>
