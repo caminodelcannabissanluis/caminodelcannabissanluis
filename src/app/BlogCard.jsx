@@ -32,7 +32,8 @@ export default () => {
   
   return (
       <section className="mt-12 mx-auto px-4 max-w-screen-xl md:px-8">
-
+<h1> El Camino del Cannabis en San Luis</h1>
+<h2>   Recorriendo la información para el crecimiento</h2>
           <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-2">
               {
                   posts.map((items, key) => (
