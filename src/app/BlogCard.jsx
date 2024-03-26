@@ -12,21 +12,21 @@ export default () => {
       {
           title: "El Jardín de Jah",
           desc: "🌿Vivero orgánico-San Luis capital🌿 📱Whatsapp: 2664-360646 🍄Sustratos-Semillas- Bionsumos-Plantines-Suelo vivo🍄 ⏲️Lunes a viernes de 10am a 20hs ⏲️",
-          img: "../images/thumb_jardin",
+          img: "https://drive.google.com/file/d/1udgzA1-dSeR1vaYacl4kfps6Zn0ZS2jz/view?usp=sharing",
 
           href: "https://www.instagram.com/el_jardin_de_jah.sl"
       },
       {
           title: "Abuelo Huachuma Semillas",
           desc: "⭐ Banco de semillas cannábicas. 🌱 Fotoperiódicas, Autoflorecientes. ✨ Genéticas de autor",
-          img: "../images/thumb_abuelo",
+          img: "https://drive.google.com/file/d/1hNthCsUfeWZPnCVW9Ulz9EfjzORQXLxJ/view?usp=drive_link",
 
           href: "https://www.instagram.com/abuelohuachuma/"
       },
       {
         title: "Rastapaz Grow",
         desc: "🏆 𝑆𝑎𝑛 𝐿𝑢𝑖𝑠 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 🇦🇷. 📍𝑹𝒆𝒑𝒖𝒃𝒍𝒊𝒄𝒂 𝒅𝒆𝒍 𝑳𝒊𝒃𝒂𝒏𝒐 𝟖𝟏 🗺",
-        img: "../images/thumb_rasta",
+        img: ".https://drive.google.com/file/d/1sFMX5khGlo6A47pJnvxSr48cG-ShJWWe/view?usp=drive_link",
 
         href: "https://www.instagram.com/rastapaz_grow/"
     },
@@ -48,10 +48,10 @@ export default () => {
 
                               </div>
                               <div className="pt-3 ml-4 mr-2 mb-3">
-                                  <h3 className="text-xl text-white-900">
+                                  <h3 className="text-2xl text-purple-800">
                                       {items.title}
                                   </h3>
-                                  <p className="text-white-400 text-sm mt-1">{items.desc}</p>
+                                  <p className="text-purple-800 text-sm mt-1">{items.desc}</p>
                               </div>
                           </a>
                       </article>
