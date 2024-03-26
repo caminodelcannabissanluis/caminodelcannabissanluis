@@ -60,7 +60,7 @@ export default () => {
   return (
       <section className="mt-4 mx-auto px-1 max-w-screen-xl md:px-8">
 
-<h1 className="font-sans text-6xl text-purple-900"> El Camino del Cannabis en San Luis</h1>
+<h1 className="font-sans md:text-6xl text-xl text-purple-900 mb-2"> El Camino del Cannabis en San Luis</h1>
 <h1 className="text-xl text-purple-900"> Conocé a la gente moviendo el suelo de la movida local.</h1>
  
           <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-2">
@@ -71,10 +71,6 @@ export default () => {
 
                               <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
 
-                              <div className="flex items-center mt-2 pt-3 ml-4 mr-2">
-
-
-                              </div>
 
                               <div className="pt-3 ml-4 mr-2 mb-3">
 
