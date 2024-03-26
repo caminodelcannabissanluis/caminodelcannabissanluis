@@ -14,7 +14,7 @@ export default function Home() {
   
   return (
 
-    <main class="flex bg-sky-300 min-h-screen flex-col items-center justify-between p-4">
+    <main class="flex bg-sky-300 bg-bubbles-violet-indigo min-h-screen flex-col items-center justify-between p-4">
 
       <Head>
         <title>El Camino del Cannabis en San Luis</title>

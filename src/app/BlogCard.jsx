@@ -60,7 +60,7 @@ export default () => {
   return (
       <section className="mt-4 mx-auto px-1 max-w-screen-xl md:px-8">
 
-<h1 className="font-another-cool-font md:text-6xl text-2xl text-slate-900 mb-2"> El Camino del Cannabis en San Luis</h1>
+<h1 className="font-another-cool-font md:text-6xl text-3xl text-slate-900 mb-2"> El Camino del Cannabis en San Luis</h1>
 <h1 className="font-another-cool-font text-xl text-slate-900"> Conocé a la gente moviendo el suelo de la movida local.</h1>
  
           <div className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">

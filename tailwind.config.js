@@ -16,7 +16,7 @@ module.exports = {
       },
       fontFamily: {
         // Add your desired font families here
-        'cool-font': ['Roboto', 'sans-serif'], // Example: Roboto font
+        'cool-font': ['Roboto', 'ui-sans-serif'], // Example: Roboto font
         'another-cool-font': ['Montserrat', 'sans-serif'], // Example: Montserrat font
       },
     },
