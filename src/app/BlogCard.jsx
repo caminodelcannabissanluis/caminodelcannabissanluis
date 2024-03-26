@@ -12,28 +12,31 @@ export default () => {
       {
           title: "El Jardín de Jah",
           desc: "🌿Vivero orgánico-San Luis capital🌿 📱Whatsapp: 2664-360646 🍄Sustratos-Semillas- Bionsumos-Plantines-Suelo vivo🍄 ⏲️Lunes a viernes de 10am a 20hs ⏲️",
-          img: "images/thumb_jardin",
-          authorLogo: "https://api.uifaces.co/our-content/donated/FJkauyEa.jpg",
-          authorName: "Sidi dev",
-          date: "Jan 4 2022",
+          img: "../images/thumb_jardin",
+
           href: "https://www.instagram.com/el_jardin_de_jah.sl"
       },
       {
           title: "Abuelo Huachuma Semillas",
           desc: "⭐ Banco de semillas cannábicas. 🌱 Fotoperiódicas, Autoflorecientes. ✨ Genéticas de autor",
-          img: "thumb_abuelo",
-          authorLogo: "https://api.uifaces.co/our-content/donated/FJkauyEa.jpg",
-          authorName: "Micheal",
-          date: "Jan 4 2022",
-          href: "javascript:void(0)"
+          img: "../images/thumb_abuelo",
+
+          href: "https://www.instagram.com/abuelohuachuma/"
       },
+      {
+        title: "Rastapaz Grow",
+        desc: "🏆 𝑆𝑎𝑛 𝐿𝑢𝑖𝑠 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 🇦🇷. 📍𝑹𝒆𝒑𝒖𝒃𝒍𝒊𝒄𝒂 𝒅𝒆𝒍 𝑳𝒊𝒃𝒂𝒏𝒐 𝟖𝟏 🗺",
+        img: "../images/thumb_rasta",
+
+        href: "https://www.instagram.com/rastapaz_grow/"
+    },
 
   ]
   
   return (
       <section className="mt-12 mx-auto px-1 max-w-screen-xl md:px-8">
-<h1 className="text-xl text-white-900"> El Camino del Cannabis en San Luis</h1>
-<h2 className="text-xl text-white-900">   Recorriendo la información para el crecimiento</h2>
+<h1 className="text-3xl text-white-900"> El Camino del Cannabis en San Luis</h1>
+ 
           <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-2">
               {
                   posts.map((items, key) => (

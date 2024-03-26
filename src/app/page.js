@@ -12,7 +12,7 @@ export default function Home() {
 
   
   return (
-    <main class="flex bg-sky-600 min-h-screen flex-col items-center justify-between p-12">
+    <main class="flex bg-sky-300 min-h-screen flex-col items-center justify-between p-12">
 <BlogCard posts={posts} />
     </main>
   );
