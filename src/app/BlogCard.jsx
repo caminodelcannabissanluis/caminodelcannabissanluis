@@ -18,7 +18,7 @@ export default () => {
           href: "https://www.instagram.com/el_jardin_de_jah.sl"
       },
       {
-          title: "Abuelo Huachuma Semillas",
+          title: "Abuelo Huachuma",
           desc: "⭐ Banco de semillas cannábicas. 🌱 Fotoperiódicas, Autoflorecientes. ✨ Genéticas de autor",
           img: "/thumb_abuelo.jpg",
 
@@ -32,11 +32,36 @@ export default () => {
         href: "https://www.instagram.com/rastapaz_grow/"
     },
 
+    {
+        title: "Mercedes Grow",
+        desc: "🏆 𝑆𝑎𝑛 𝐿𝑢𝑖𝑠 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 🇦🇷. 📍𝑹𝒆𝒑𝒖𝒃𝒍𝒊𝒄𝒂 𝒅𝒆𝒍 𝑳𝒊𝒃𝒂𝒏𝒐 𝟖𝟏 🗺",
+        img: "/thumb_merc.jpg",
+
+        href: "https://www.instagram.com/rastapaz_grow/"
+    },
+
+    {
+        title: "Rastapaz Grow",
+        desc: "🏆 𝑆𝑎𝑛 𝐿𝑢𝑖𝑠 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 🇦🇷. 📍𝑹𝒆𝒑𝒖𝒃𝒍𝒊𝒄𝒂 𝒅𝒆𝒍 𝑳𝒊𝒃𝒂𝒏𝒐 𝟖𝟏 🗺",
+        img: "/thumb_rasta.jpg",
+
+        href: "https://www.instagram.com/rastapaz_grow/"
+    },
+
+    {
+        title: "Rastapaz Grow",
+        desc: "🏆 𝑆𝑎𝑛 𝐿𝑢𝑖𝑠 𝐶𝑎𝑝𝑖𝑡𝑎𝑙 🇦🇷. 📍𝑹𝒆𝒑𝒖𝒃𝒍𝒊𝒄𝒂 𝒅𝒆𝒍 𝑳𝒊𝒃𝒂𝒏𝒐 𝟖𝟏 🗺",
+        img: "/thumb_rasta.jpg",
+
+        href: "https://www.instagram.com/rastapaz_grow/"
+    },
   ]
   
   return (
-      <section className="mt-12 mx-auto px-1 max-w-screen-xl md:px-8">
-<h1 className="text-3xl text-purple-900"> El Camino del Cannabis en San Luis</h1>
+      <section className="mt-4 mx-auto px-1 max-w-screen-xl md:px-8">
+
+<h1 className="font-sans text-6xl text-purple-900"> El Camino del Cannabis en San Luis</h1>
+<h1 className="text-xl text-purple-900"> Conocé a la gente moviendo el suelo de la movida local.</h1>
  
           <div className="mt-12 grid gap-2 sm:grid-cols-2 lg:grid-cols-2">
               {

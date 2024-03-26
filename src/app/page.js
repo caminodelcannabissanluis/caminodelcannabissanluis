@@ -1,8 +1,9 @@
 import Image from "next/image";
 import BlogCard from "./BlogCard";
 
+import Head from 'next/head';
 
-1
+
 
 export default function Home() {
 
@@ -12,8 +13,19 @@ export default function Home() {
 
   
   return (
-    <main class="flex bg-sky-300 min-h-screen flex-col items-center justify-between p-12">
+
+    <main class="flex bg-sky-300 min-h-screen flex-col items-center justify-between p-4">
+
+      <Head>
+        <title>El Camino del Cannabis en San Luis</title>
+      </Head>
+
+
+
 <BlogCard posts={posts} />
+
+
+
     </main>
   );
 }
