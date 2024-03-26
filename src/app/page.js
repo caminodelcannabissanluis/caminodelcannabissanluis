@@ -2,7 +2,7 @@ import Image from "next/image";
 import BlogCard from "./BlogCard";
 
 
-
+1
 
 export default function Home() {
 
