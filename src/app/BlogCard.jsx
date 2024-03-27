@@ -63,10 +63,10 @@ export default () => {
 <h1 className="font-another-cool-font md:text-6xl text-3xl text-slate-900 mb-2"> El Camino del Cannabis en San Luis</h1>
 <h1 className="font-another-cool-font text-xl text-slate-900"> Conocé a la gente moviendo el suelo de la movida local.</h1>
  
-          <div className="mt-6 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+          <div className=" mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {
                   posts.map((items, key) => (
-                      <article className="max-w-md mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
+                      <article className="max-w-md bg-blue-200  mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
                           <a href={items.href}>
 
                               <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
