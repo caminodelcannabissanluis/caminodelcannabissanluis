@@ -1,11 +1,15 @@
 
 
 
+import { Inter } from 'next/font/google'
+ 
+const inter = Inter({ subsets: ['latin'] })
+
 
 import Image from "next/image";
+import localFont from '@next/font/local';
 
-
-
+ 
 
 export default () => {
 
@@ -55,30 +59,40 @@ export default () => {
 
         href: "https://www.instagram.com/almamaterseeds/"
     },
+
+    {
+        title: "La Punta Grow",
+        desc: "🚩 LA PUNTA - SAN LUIS 🌱 Asesoramiento para tus cultivos 🇦🇷 REPROCANN 🪱 Insumos 🍅Huerta  Jardines 🌿 PROYECTOS PAISAJISTICOS < CRIADEROS CANNABICOS >",
+        img: "/thumb_lapunta.jpg",
+
+        href: "https://www.instagram.com/lapunta.grow/"
+    },
   ]
   
   return (
       <section className="mt-4 mx-auto px-1 max-w-screen-xl md:px-8">
 
-<h1 className="font-another-cool-font md:text-6xl text-3xl text-slate-900 mb-2"> El Camino del Cannabis en San Luis</h1>
-<h1 className="font-another-cool-font text-xl text-slate-900"> Conocé a la gente moviendo el suelo de la movida local.</h1>
+        <h1 className="{inter.className}   md:text-6xl text-3xl text-slate-900 mb-2">
+     El Camino del Cannabis en San Luis
+     </h1>
+ 
  
           <div className=" mt-6 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {
                   posts.map((items, key) => (
-                      <article className="max-w-md bg-blue-200  mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
+                      <article className="max-w-md bg-blue-200 mb-3 mx-auto mt-4 shadow-lg border rounded-md duration-300 hover:shadow-sm" key={key}>
                           <a href={items.href}>
 
-                              <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md" />
+                              <img src={items.img} loading="lazy" alt={items.title}  className="w-full h-48 rounded-t-md " />
 
+ 
+                              <div className="pt-3 ml-4 mr-4 mb-3 ">
 
-                              <div className="pt-3 ml-4 mr-2 mb-3">
-
-                                  <h3 className=" font-cool-font text-2xl text-slate-900">
+                                  <h3 className=" font-mono text-2xl text-slate-900 ">
                                       {items.title}
                                   </h3>
 
-                                  <p className="font-cool-font text-slate-800 text-sm mt-1">{items.desc}</p>
+                                  <p className="font-mono font-regular text-slate-800 text-sm mt-1">{items.desc}</p>
                               </div>
                           </a>
                       </article>

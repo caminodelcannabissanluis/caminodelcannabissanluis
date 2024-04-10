@@ -15,9 +15,9 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        // Add your desired font families here
-        'cool-font': ['Roboto', 'ui-sans-serif'], // Example: Roboto font
-        'another-cool-font': ['Montserrat', 'sans-serif'], // Example: Montserrat font
+        'mono': ['ui-monospace', 'Consolas' ],
+        'mono2': ['tiltneon', 'Consolas' ],
+
       },
 
       patterns: {
