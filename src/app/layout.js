@@ -6,6 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "El Camino del Cannabis en San Luis",
   description: "El Camino del Cannabis en San Luis",
+  verification: { google: "r0vpWD7Z0s48JpQlIW8OrlG2" },
 };
 
 export default function RootLayout({ children }) {
@@ -15,3 +16,4 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+ 
